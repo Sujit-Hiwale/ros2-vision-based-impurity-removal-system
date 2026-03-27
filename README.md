@@ -21,9 +21,9 @@ This project demonstrates a complete end-to-end robotic automation pipeline, bri
 Camera Node → PatchCore Node → Tracking Node → Coordinate Transform → Motion Planner Node → Delta Hand Node
 
 The system graph can be visualized using:
-
+```bash
 rqt_graph
-
+```
 ---
 
 ## Features
@@ -85,16 +85,16 @@ ros2-robotic-impurity-detection-and-removal/
 ## Setup Instructions
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/Sujit-Hiwale/ros2-robotic-impurity-detection-and-removal.git  
 cd ros2-robotic-impurity-detection-and-removal  
-
+```
 ---
 
 ### 2. Download Model Weights
-
+```
 ./scripts/download_model.sh  
-
+```
 Model repository:  
 https://huggingface.co/Sujit-Hiwale/Garlic_anomaly_detection  
 
@@ -118,16 +118,16 @@ Calibration must be repeated whenever:
 ---
 
 ### 4. Build the ROS2 Workspace
-
+```bash
 colcon build  
 source install/setup.bash  
-
+```
 ---
 
 ### 5. Run the System
-
+```bash
 ros2 launch garlic_impurity_removal system_launch.py  
-
+```
 ---
 
 ### 6. Verify Hardware Compatibility (Optional)
@@ -144,9 +144,9 @@ These scripts help ensure that the robotic system is functioning correctly befor
 ### 7. Visualize ROS Graph (Optional)
 
 To inspect node communication:
-
+```bash
 rqt_graph  
-
+```
 ---
 
 ## Model Weights
@@ -170,6 +170,16 @@ src/garlic_impurity_removal/config/
 
 The dataset used for this project is available on Kaggle:  
 https://www.kaggle.com/datasets/sujitvhiwale/dry-garlic-dataset  
+
+---
+
+## PatchCore Training
+
+The anomaly detection model used in this project is based on the PatchCore method.
+
+The training pipeline uses a ResNet backbone for feature extraction, specifically leveraging intermediate feature maps (layer3) to capture spatial and semantic information. These features are used to construct a memory bank for anomaly detection using the PatchCore approach.
+
+The trained model is exported as an index file and used during inference in the ROS2 pipeline.
 
 ---
 
