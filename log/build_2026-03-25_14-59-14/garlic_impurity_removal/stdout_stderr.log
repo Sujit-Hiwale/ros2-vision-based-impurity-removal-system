@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating garlic_impurity_removal.egg-info
+writing garlic_impurity_removal.egg-info/PKG-INFO
+writing dependency_links to garlic_impurity_removal.egg-info/dependency_links.txt
+writing entry points to garlic_impurity_removal.egg-info/entry_points.txt
+writing requirements to garlic_impurity_removal.egg-info/requires.txt
+writing top-level names to garlic_impurity_removal.egg-info/top_level.txt
+writing manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+reading manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+writing manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages/garlic-impurity-removal.egg-link (link to .)
+Installing camera_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing camera_view_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing coordinate_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing delta_hand_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing motion_planner_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing patchcore_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+Installing tracking_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+
+Installed /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal
+running symlink_data
+creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index
+creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index
+creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index/packages
+symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/resource/garlic_impurity_removal -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index/packages
+symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/package.xml -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal
+creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/launch
+symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/launch/system_launch.py -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/launch
+creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config
+symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/config/garlic_detection.index -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config
+symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/config/homography_matrix.npy -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config

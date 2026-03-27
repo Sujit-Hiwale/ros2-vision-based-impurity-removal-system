@@ -1,0 +1,1 @@
+/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/launch/system_launch.py

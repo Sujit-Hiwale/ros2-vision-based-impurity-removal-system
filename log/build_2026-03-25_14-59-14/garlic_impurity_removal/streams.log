@@ -1,0 +1,35 @@
+[3.525s] Invoking command in '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/build --no-deps symlink_data
+[4.979s] running develop
+[5.739s] running egg_info
+[5.740s] creating garlic_impurity_removal.egg-info
+[5.812s] writing garlic_impurity_removal.egg-info/PKG-INFO
+[5.812s] writing dependency_links to garlic_impurity_removal.egg-info/dependency_links.txt
+[5.813s] writing entry points to garlic_impurity_removal.egg-info/entry_points.txt
+[5.813s] writing requirements to garlic_impurity_removal.egg-info/requires.txt
+[5.814s] writing top-level names to garlic_impurity_removal.egg-info/top_level.txt
+[5.814s] writing manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+[5.994s] reading manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+[5.997s] writing manifest file 'garlic_impurity_removal.egg-info/SOURCES.txt'
+[6.123s] running build_ext
+[6.124s] Creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages/garlic-impurity-removal.egg-link (link to .)
+[6.129s] Installing camera_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.130s] Installing camera_view_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.130s] Installing coordinate_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.130s] Installing delta_hand_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.130s] Installing motion_planner_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.131s] Installing patchcore_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.132s] Installing tracking_node script to /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/garlic_impurity_removal
+[6.133s] 
+[6.133s] Installed /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal
+[6.134s] running symlink_data
+[6.134s] creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index
+[6.135s] creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index
+[6.136s] creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index/packages
+[6.136s] symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/resource/garlic_impurity_removal -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/ament_index/resource_index/packages
+[6.137s] symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/package.xml -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal
+[6.137s] creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/launch
+[6.137s] symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/launch/system_launch.py -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/launch
+[6.137s] creating /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config
+[6.138s] symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/config/garlic_detection.index -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config
+[6.138s] symbolically linking /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/config/homography_matrix.npy -> /home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/config
+[6.260s] Invoked command in '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/build --no-deps symlink_data

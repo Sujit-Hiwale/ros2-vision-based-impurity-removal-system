@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: garlic-impurity-removal
+Version: 0.0.1
+Summary: Garlic impurity removal robotic system using ROS 2
+Maintainer: sujit
+Maintainer-email: sujit@example.com
+License: MIT

@@ -1,0 +1,132 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d2ed387b440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d2ed399bfb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d2ed399bfb0>>)
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.351s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sujit/Documents/garlic_ws'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/garlic_impurity_removal) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/garlic_impurity_removal' with type 'ros.ament_python' and name 'garlic_impurity_removal'
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.492s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.496s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sujit/Documents/garlic_ws/install
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/jazzy
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_args' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_target' from command line to 'None'
+[0.697s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_clean_first' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'cmake_force_configure' from command line to 'False'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'ament_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.698s] Level 5:colcon.colcon_core.verb:set package 'garlic_impurity_removal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.698s] DEBUG:colcon.colcon_core.verb:Building package 'garlic_impurity_removal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal', 'merge_install': False, 'path': '/home/sujit/Documents/garlic_ws/src/garlic_impurity_removal', 'symlink_install': True, 'test_result_base': None}
+[0.699s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.702s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sujit/Documents/garlic_ws/src/garlic_impurity_removal' with build type 'ament_python'
+[0.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('garlic_impurity_removal', 'ament_prefix_path')
+[0.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/ament_prefix_path.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/ament_prefix_path.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/ament_prefix_path.sh'
+[0.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sujit/Documents/garlic_ws/src/garlic_impurity_removal'
+[1.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/build --no-deps symlink_data
+[6.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('garlic_impurity_removal', 'pythonpath_develop')
+[6.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath_develop.ps1'
+[6.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/build --no-deps symlink_data
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath_develop.dsv'
+[6.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/build/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath_develop.sh'
+[6.981s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal' for CMake module files
+[6.982s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal' for CMake config files
+[6.983s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib'
+[6.983s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/bin'
+[6.983s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/pkgconfig/garlic_impurity_removal.pc'
+[6.984s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/lib/python3.12/site-packages'
+[6.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('garlic_impurity_removal', 'pythonpath')
+[6.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath.ps1'
+[6.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath.dsv'
+[6.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/hook/pythonpath.sh'
+[6.989s] Level 1:colcon.colcon_core.environment:checking '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/bin'
+[6.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(garlic_impurity_removal)
+[6.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/package.ps1'
+[6.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/package.dsv'
+[6.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/package.sh'
+[6.999s] INFO:colcon.colcon_core.shell:Creating package script '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/package.bash'
+[7.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/garlic_impurity_removal/package.zsh'
+[7.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sujit/Documents/garlic_ws/install/garlic_impurity_removal/share/colcon-core/packages/garlic_impurity_removal)
+[7.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.010s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.035s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.038s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.078s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.079s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sujit/Documents/garlic_ws/install/local_setup.ps1'
+[7.081s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sujit/Documents/garlic_ws/install/_local_setup_util_ps1.py'
+[7.083s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sujit/Documents/garlic_ws/install/setup.ps1'
+[7.086s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sujit/Documents/garlic_ws/install/local_setup.sh'
+[7.091s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sujit/Documents/garlic_ws/install/_local_setup_util_sh.py'
+[7.093s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sujit/Documents/garlic_ws/install/setup.sh'
+[7.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sujit/Documents/garlic_ws/install/local_setup.bash'
+[7.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sujit/Documents/garlic_ws/install/setup.bash'
+[7.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sujit/Documents/garlic_ws/install/local_setup.zsh'
+[7.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sujit/Documents/garlic_ws/install/setup.zsh'

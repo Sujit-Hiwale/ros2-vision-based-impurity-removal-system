@@ -1,0 +1,8 @@
+[console_scripts]
+camera_node = garlic_impurity_removal.camera_node:main
+camera_view_node = garlic_impurity_removal.camera_view_node:main
+coordinate_node = garlic_impurity_removal.coordinate_node:main
+delta_hand_node = garlic_impurity_removal.delta_hand_node:main
+motion_planner_node = garlic_impurity_removal.motion_planner_node:main
+patchcore_node = garlic_impurity_removal.patchcore_node:main
+tracking_node = garlic_impurity_removal.tracking_node:main
